@@ -1,50 +1,109 @@
-TogetherForGood is a comprehensive volunteer management platform that connects volunteers with organizations, facilitates event management, and implements a unique gamification system through credits and rewards. Built with modern web technologies, it offers a seamless experience for volunteers, companies, and administrators.
-Features
+# TogetherForGood Platform
 
-Multi-role User System
+## Overview
+TogetherForGood is an enterprise-grade volunteer management platform designed to streamline the connection between organizations and volunteers. The platform implements a sophisticated credit-based reward system, real-time communication, and comprehensive event management capabilities.
 
-Volunteer accounts
-Company accounts
-Administrative dashboard
+## Core Architecture
 
+### Technology Stack
+- **Frontend**: Next.js 13, React 18, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **Real-time Communication**: Socket.IO
+- **UI Components**: shadcn/ui
 
-Event Management
+### System Components
+- User Management & Authentication
+- Event Management System
+- Credit & Reward Engine
+- Real-time Messaging
+- Administrative Controls
+- Geolocation Services
 
-Create and manage volunteer events
-Track participation
-Location-based event discovery
-Event categories and actions
+## Setup & Deployment
 
+### Prerequisites
+```bash
+Node.js >= v16.0.0
+MongoDB >= v5.0
+npm >= v8.0.0
+```
 
-Gamification System
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/[username]/togetherforgood.git
 
-Credit tracking
-Rewards system
-Achievement badges
-User levels
+# Install dependencies
+npm install
 
+# Configure environment
+cp .env.example .env
 
-Real-time Communication
+# Start development server
+npm run dev
+```
 
-Built-in chat system
-Event notifications
-Participant messaging
+### Production Deployment
+```bash
+npm run build
+npm start
+```
 
+## Application Structure
+```
+src/
+├── components/         # Reusable UI components
+├── lib/               # Core business logic
+├── models/            # Database schemas
+├── pages/             # Next.js routing
+├── utils/             # Helper functions
+└── config/            # Configuration files
+```
 
+## Key Features
 
-Technologies Used
-Frontend
+### Role-Based Access Control
+- Administrator Dashboard
+- Company Management Interface
+- Volunteer Portal
 
-Next.js 13
-React 18
-Tailwind CSS
-shadcn/ui components
-Socket.IO (client)
+### Event Management
+- Event Creation & Modification
+- Participant Tracking
+- Location-based Services
+- Category Management
 
-Backend
+### Reward System
+- Credit Tracking
+- Achievement System
+- Reward Distribution
+- User Progression
 
-Node.js
-Express.js
-MongoDB
-JWT Authentication
-Socket.IO (server)
+## Documentation
+Detailed documentation is maintained in the `/docs` directory:
+- [API Documentation](docs/API.md)
+- [Database Schema](docs/Schema.md)
+- [Deployment Guide](docs/Deployment.md)
+
+## Testing
+```bash
+# Run unit tests
+npm run test
+
+# Run integration tests
+npm run test:integration
+
+# Run e2e tests
+npm run test:e2e
+```
+
+## License
+This project is proprietary software. All rights reserved.
+
+## Support
+For technical support or inquiries, please contact [contact information].
+
+---
+© 2024 TogetherForGood Platform. All rights reserved.
