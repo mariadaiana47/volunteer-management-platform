@@ -102,8 +102,5 @@ npm run test:e2e
 ## License
 This project is proprietary software. All rights reserved.
 
-## Support
-For technical support or inquiries, please contact [contact information].
-
 ---
 © 2024 TogetherForGood Platform. All rights reserved.
