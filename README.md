@@ -33,7 +33,7 @@ npm >= v8.0.0
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/mariadaiana47/togetherforgood.git
+git clone https://github.com/mariadaiana47/volunteer-management-platform.git
 
 # Install dependencies
 npm install
